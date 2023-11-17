@@ -1,0 +1,137 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+    background-image: url("../img/background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* Sélecteur pour le titre principal */
+.title-big {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: #f5f5f5;
+    text-shadow: -2px 2px 7px #000000;
+    margin-bottom: 2rem;
+}
+
+/* Sélecteur pour les titres secondaires */
+.title-medium {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #f5f5f5;
+    text-shadow: 2px 2px #000000;
+}
+
+/* Sélecteur pour les conteneurs principaux */
+.container-main {
+    margin: 2rem auto;
+    max-width: 600px;
+    padding: 1rem;
+    border: 1px solid #f5f5f5;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px #000000;
+}
+
+/* Sélecteur pour les listes déroulantes */
+select {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #f5f5f5;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f5f5f5;
+    text-shadow: 2px 2px #000000;
+}
+
+/* Sélecteur pour les champs de quantité */
+.quantity {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #f5f5f5;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f5f5f5;
+    text-shadow: 2px 2px #000000;
+}
+
+/* Sélecteur pour le bouton */
+.button {
+    background-color: #f5f5f5;
+    border: none;
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px #000000;
+    transition: 0.3s ease-in-out;
+}
+
+/* Sélecteur pour le bouton au survol */
+.button:hover {
+    background-color: #000000;
+    color: #f5f5f5;
+    text-shadow: 0px 0px #f5f5f5;
+    transition: 0.3s ease-in-out;
+}
+
+div.container-main {
+    color: #f5f5f5;
+}

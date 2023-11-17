@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1 class="title-big">Choisir une recette</h1>
+    </header>
+    <form action="./respond.php" method="post">
+        <main>
+            <hr>
+            <!--nom de plat-->
+            <div class="container-main" id="choix-catalogue-container">
+                <h2 class="title-medium text-black">Choix catalogue</h2>
+                <select name="nameRecipe" id="nameRecipe">
+                    <option value="Crepe">Crepe</option>
+                    <option value="Cake_chocolat">Cake au chocolat</option>
+                    <option value="Tarte_pomme">Tarte au pomme</option>
+                    <option value="Tarte_citron">Tarte au citron</option>
+                    <option value="test">Test</option>
+                </select>
+            </div>
+            <!--Quantitée-->
+            <div class="container-main" id="quantity-container">
+                <h2 class="title-medium text-black">Quantité</h2>
+                <div class="quantity-container">
+                    <input type="number" min="1" max="50" step="1" value="1" class="quantity" id="quantity" name="quantity">
+                </div>
+            </div>
+            <!--Nombre de personne-->
+            <!-- <div class="container-main" id="person-container">
+                <h2 class="title-medium text-black">Nombre de personne</h2>
+                <div class="person-container">
+                    <input type="number" min="1" max="15" step="1" value="1" class="quantity" id="personNumber" name="personNumber">
+                </div>
+            </div> -->
+            <!--Bouton-->
+            <div class="container-main" id="button-container">
+                <button type="submit" class="button" id="button">Valider</button>
+            </div>
+        </main>
+    </form>
+</body>
+</html>
